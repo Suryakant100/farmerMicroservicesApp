@@ -1,0 +1,36 @@
+2023-07-07 14:31:34.408  INFO 23724 --- [main] com.fas.supplier.SupplierApplication     : Starting SupplierApplication using Java 17.0.5 on lin33002342 with PID 23724 (C:\Users\SKUM1161\Music\FarmingAssistanceSystem-main\supplier\build\classes\java\main started by skum1161 in C:\Users\SKUM1161\Music\FarmingAssistanceSystem-main\supplier)
+2023-07-07 14:31:34.412  INFO 23724 --- [main] com.fas.supplier.SupplierApplication     : No active profile set, falling back to default profiles: default
+2023-07-07 14:31:37.474  INFO 23724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07 14:31:37.475  INFO 23724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-07-07 14:31:37.746  INFO 23724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07 14:31:38.589  INFO 23724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07 14:31:38.805  INFO 23724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07 14:31:44.915  WARN 23724 --- [main] io.fabric8.kubernetes.client.Config      : Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2023-07-07 14:31:44.918  WARN 23724 --- [main] io.fabric8.kubernetes.client.Config      : Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2023-07-07 14:31:46.087  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-07-07 14:31:46.096  INFO 23724 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-07-07 14:31:46.128  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-07-07 14:31:46.129  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-07-07 14:31:46.129  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-07-07 14:31:46.129  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-07-07 14:31:46.129  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-07-07 14:31:46.130  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-07-07 14:31:46.130  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-07-07 14:31:47.198  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-07-07 14:31:47.201  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-07-07 14:31:47.206  INFO 23724 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-07-07 14:31:47.213  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1688720507211 with initial instances count: 0
+2023-07-07 14:31:47.218  INFO 23724 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1688720507218, current=UP, previous=STARTING]
+2023-07-07 14:31:47.220  INFO 23724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SUPPLIER/lin33002342.corp.capgemini.com:supplier:8200: registering service...
+2023-07-07 14:31:47.492  INFO 23724 --- [main] com.fas.supplier.SupplierApplication     : Started SupplierApplication in 14.544 seconds (JVM running for 15.449)
+2023-07-07 14:31:47.973  INFO 23724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SUPPLIER/lin33002342.corp.capgemini.com:supplier:8200 - registration status: 204
+2023-07-07 14:32:20.847  INFO 25844 --- [main] com.fas.supplier.SupplierApplication     : Starting SupplierApplication using Java 17.0.5 on lin33002342 with PID 25844 (C:\Users\SKUM1161\Music\FarmingAssistanceSystem-main\supplier\build\classes\java\main started by skum1161 in C:\Users\SKUM1161\Music\FarmingAssistanceSystem-main\supplier)
+2023-07-07 14:32:20.850  INFO 25844 --- [main] com.fas.supplier.SupplierApplication     : No active profile set, falling back to default profiles: default
+2023-07-07 14:32:23.291  INFO 25844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07 14:32:23.293  INFO 25844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-07-07 14:32:23.637  INFO 25844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07 14:32:24.911  INFO 25844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07 14:32:25.151  INFO 25844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07 14:32:30.026  WARN 25844 --- [main] io.fabric8.kubernetes.client.Config      : Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2023-07-07 14:32:30.027  WARN 25844 --- [main] io.fabric8.kubernetes.client.Config      : Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2023-07-07 14:32:30.854  INFO 25844 --- [main] com.fas.supplier.SupplierApplication     : Started SupplierApplication in 11.086 seconds (JVM running for 11.787)

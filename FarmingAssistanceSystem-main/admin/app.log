@@ -1,0 +1,26 @@
+2023-07-07 14:30:28.446  INFO 26464 --- [main] com.fas.admin.AdminApplication           : Starting AdminApplication using Java 17.0.5 on lin33002342 with PID 26464 (C:\Users\SKUM1161\Music\FarmingAssistanceSystem-main\admin\build\classes\java\main started by skum1161 in C:\Users\SKUM1161\Music\FarmingAssistanceSystem-main\admin)
+2023-07-07 14:30:28.457  INFO 26464 --- [main] com.fas.admin.AdminApplication           : No active profile set, falling back to default profiles: default
+2023-07-07 14:30:30.523  INFO 26464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07 14:30:30.524  INFO 26464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2023-07-07 14:30:30.741  INFO 26464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07 14:30:31.686  INFO 26464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07 14:30:31.958  INFO 26464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07 14:30:35.752  WARN 26464 --- [main] io.fabric8.kubernetes.client.Config      : Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2023-07-07 14:30:35.753  WARN 26464 --- [main] io.fabric8.kubernetes.client.Config      : Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+2023-07-07 14:30:36.169  INFO 26464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07 14:30:36.177  INFO 26464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07 14:30:36.181  INFO 26464 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-07 14:30:36.215 ERROR 26464 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+

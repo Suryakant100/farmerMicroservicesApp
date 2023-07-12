@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+    admin:        
+        container_name: admin
+        image: suryakant100/admin:v1
+        ports:
+        - 8000:8000
+    
+    farmer:        
+        container_name: farmer
+        image: suryakant100/farmer:v1
+        ports:
+        - 8100:8100
+    
+    supplier:
+        container_name: supplier      
+        image: suryakant100/supplier:v3
+        ports:
+        - 8200:8200
+      
+    postgres:  
+        container_name: postgres_con
+        image: postgres:13.3
+        ports:
+        - 5432:5432
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: 2253
+            POSTGRES_DB: farmerDB
+        volumes:
+            - C:\Users\SKUM1161\postgres_Con_data:/var/lib/postgresql/data
